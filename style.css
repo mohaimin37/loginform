@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+    background: #21212121;;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+}
+
+.form-box{
+    width: 50%;
+    max-width: 400px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+   padding: 20px;
+margin-inline: 120px;   
+}
+.form-box header h1{
+    text-align: center;
+    color: rgba(45, 45, 177, 0.863);
+    margin-bottom: 10px;
+}
+input{
+width: 50vh;
+padding: 5%;
+border: none;
+text-transform: uppercase;
+margin-left: 8%;
+border-radius: 4px;
+background:#a3a3a3;
+margin: 12px;
+font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-size: large;
+}
+input[type="button"] {
+    margin: 23px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    background: blue;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s;
+}
+input[type="button"]:hover{
+    background: #5d2fc1f9;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a img{
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+
+}
+.signup a{
+color: blue;}
+.signup a:hover{
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+input[type = "Email"] {
+    display: none;
+}
+/* css to make it responsive */
+@media screen and (max-width:700px){
+    .form-box{
+        width:100%;
+    }
+}
